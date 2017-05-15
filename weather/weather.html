@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>freeCodeCamp.com Local Weather App</title>
+    <link href="weather.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+    <script src="weather.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row" id="headerRow">
+        <div class="col-sm-12 text-center">
+          <h1>freeCodeCamp Local Weather App</h1>
+        </div>
+      </div>
+      
+      <div class="row" id="locationRow">
+        <div class="col-sm-12 text-center">
+          <h1 id="locationName">Location Name</h1>
+        </div>
+      </div>
+      <div class="row" id="tempRow">
+        <div class="col-sm-1 col-sm-offset-4 text-right">
+          <h2 id="temp">Temp</h2>
+        </div>
+        <div class="col-sm-1 text-left">
+          <h2>&deg;</h2>
+        </div>
+        <div class="col-sm-1 text-left">
+          <h2 id="type">Fahrenheit</h2>
+        </div>
+      </div>
+        
+      <div class="row" id="imageRow">
+        <div class="col-sm-12 text-center" id="image">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

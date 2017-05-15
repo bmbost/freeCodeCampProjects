@@ -1,0 +1,13 @@
+.col-lg-3 {
+  width: 100%;
+}
+.input-group {
+   width: 200px;
+   margin: 0;
+}
+
+#resultPost {
+  background-color: lightblue;
+  margin: 10px;
+  padding: 10px;
+}
